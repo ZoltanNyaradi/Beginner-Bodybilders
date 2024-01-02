@@ -47,8 +47,16 @@ nav > div{
 
 /* media query: phones*/
 @media screen and (max-width: 785px){
+    /* Header */
     /* Put the h1 into 2 lines in phones */
     h1{
         margin-right:250px;
     }
+}
+/* media query: laptops and biger device */
+@media screen and (min-width: 992px) {
+    /* Nav */
+    nav>div:hover {
+            background-color: #CC1414;
+        }
 }
