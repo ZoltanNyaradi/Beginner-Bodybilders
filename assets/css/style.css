@@ -2,22 +2,32 @@ h1 {
     color: #CC1414;
     font-family: 'Rubik Glitch','Dela Gothic One', Verdana;
     font-weight: bold;
-    
+    font-size: 275%;
+    margin: 0;
 }
 h2,h3 {
     color: #D9D9D9;
     font-family: 'Dela Gothic One',Verdana;
     font-weight: bold;
+    margin: 0;
+}
+h2{
+    text-align: right;
 }
 body{
     margin:0;
 }
+
 /* Header */
 header{
     background-color:#3D3D3D;
     width: 100%;
     position:fixed;
 }
+header > div {
+    margin : 20px;
+}
+
 /* Nav */
 nav{
     display: flex;
@@ -26,10 +36,19 @@ nav > div{
     width: 33%;
     text-align: center;
     border: 1px outset black;
+    padding:10px;
 }
 .current-page{
     background-color: #D9D9D9;
 }
 .current-page > h3{
     color: #3D3D3D;
+}
+
+/* media query: phones*/
+@media screen and (max-width: 785px){
+    /* Put the h1 into 2 lines in phones */
+    h1{
+        margin-right:250px;
+    }
 }
