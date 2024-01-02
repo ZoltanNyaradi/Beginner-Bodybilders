@@ -8,8 +8,24 @@ h2,h3 {
 body{
     margin:0;
 }
+/* Header */
 header{
-    background:#3D3D3D;
+    background-color:#3D3D3D;
     width: 100%;
     position:fixed;
+}
+/* Nav */
+nav{
+    display: flex;
+}
+nav > div{
+    width: 33%;
+    text-align: center;
+    border: 1px outset black;
+}
+.current-page{
+    background-color: #D9D9D9;
+}
+.current-page > h3{
+    color: #3D3D3D;
 }
