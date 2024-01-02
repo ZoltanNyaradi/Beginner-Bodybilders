@@ -1,9 +1,13 @@
 h1 {
     color: #CC1414;
+    font-family: 'Rubik Glitch','Dela Gothic One', Verdana;
+    font-weight: bold;
     
 }
 h2,h3 {
     color: #D9D9D9;
+    font-family: 'Dela Gothic One',Verdana;
+    font-weight: bold;
 }
 body{
     margin:0;
