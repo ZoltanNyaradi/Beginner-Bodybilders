@@ -5,3 +5,11 @@ h1 {
 h2,h3 {
     color: #D9D9D9;
 }
+body{
+    margin:0;
+}
+header{
+    background:#3D3D3D;
+    width: 100%;
+    position:fixed;
+}
