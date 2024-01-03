@@ -23,7 +23,8 @@ body{
 header{
     background-color:#3D3D3D;
     width: 100%;
-    position:fixed;
+    position:absolute;
+    top:0;
 }
 header > div {
     margin : 20px;
@@ -45,7 +46,27 @@ nav > div{
 .current-page > h3{
     color: #3D3D3D;
 }
-
+/* Main */
+main{
+   
+}
+/* Footer */
+footer{
+    background-color: #3D3D3D;
+    position:absolute;
+    bottom:0;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer > div {
+    color: #D9D9D9
+}
+footer i{
+    font-size: 500%;
+}
 /* media query: phones*/
 @media screen and (max-width: 785px){
     /* Header */
