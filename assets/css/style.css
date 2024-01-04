@@ -11,7 +11,7 @@ h2,h3 {
     font-weight: bold;
     margin: 0;
 }
-h2{
+header h2{
     text-align: right;
     font-size:160%;
 }
@@ -24,7 +24,7 @@ header{
     background-color:#3D3D3D;
     width: 100%;
     position:absolute;
-    top:0;
+    top: 0;
 }
 header > div {
     margin : 20px;
@@ -57,8 +57,22 @@ main{
 #hero{ 
     background: url("../images/gym.jpg") no-repeat left 40%/cover;
     width: 100%;
-    height:300px;
+    height:400px;
 }
+#hero > div{
+    background-color:rgba(0, 0, 0, 0.7);
+    width:200px;
+    border-radius: 3%;
+    padding:20px;
+    padding-right: 30px;
+    position: absolute;
+    right:-10px;
+    top:350px;
+}
+#hero h2{
+    color: #CC1414;
+}
+
 /* Footer */
 footer{
     background-color: #3D3D3D;
@@ -88,7 +102,7 @@ footer i{
 /* media: query:  tablets and bigger devices*/
 @media screen and (min-width: 786px){
 /* Header */
-    h2 {
+    header h2 {
         text-align:left;
         padding-left:300px;
     }
@@ -98,7 +112,7 @@ footer i{
     }
     /* Hero */
     #hero {
-        height: 352px;
+        height: 452px;
     }
 }
 
