@@ -49,9 +49,15 @@ nav > div > a {
 .current-page > a> h3{
     color: #3D3D3D;
 }
-/* Main */
+/* Main - index page*/
 main{
-
+    margin-top: 230px;
+}
+/* Hero */
+#hero{ 
+    background: url("../images/gym.jpg") no-repeat left 40%/cover;
+    width: 100%;
+    height:300px;
 }
 /* Footer */
 footer{
@@ -85,6 +91,14 @@ footer i{
     h2 {
         text-align:left;
         padding-left:300px;
+    }
+    /* Main - index page*/
+    main {
+        margin-top: 178px;
+    }
+    /* Hero */
+    #hero {
+        height: 352px;
     }
 }
 
