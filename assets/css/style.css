@@ -48,7 +48,7 @@ nav > div{
 }
 /* Main */
 main{
-   
+
 }
 /* Footer */
 footer{
@@ -66,6 +66,10 @@ footer > div {
 }
 footer i{
     font-size: 500%;
+    color:#D9D9D9;
+}
+footer i:hover{
+    color:#CC1414;
 }
 /* media query: phones*/
 @media screen and (max-width: 785px){
