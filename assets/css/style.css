@@ -43,7 +43,7 @@ nav > div{
 .current-page{
     background-color: #D9D9D9;
 }
-.current-page > h3{
+.current-page > a> h3{
     color: #3D3D3D;
 }
 /* Main */
