@@ -98,6 +98,19 @@ footer i{
     font-size: 300%;
     color:#D9D9D9;
 }
+/* Exercises page */
+/* Main */
+
+#exercises > div > div{
+	background-color:#D9D9D9;
+    height:100px;
+}
+.main-exercise{
+	width:70%;
+}
+.alternative-exercise{
+	width:30;
+}
 /* Log-in page */
 /* Main */
 #log-in-main{
