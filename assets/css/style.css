@@ -160,6 +160,86 @@ br {
     filter: grayscale(100%);
 
 }
+/* Placeing of the boxes */
+#exercise {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#bench-press {
+    order: 1;
+}
+
+#barbell-squat {
+    order: 4;
+}
+
+#deadlift {
+    order: 5;
+}
+
+#barbell-row {
+    order: 8;
+}
+
+#shoulder-press {
+    order: 9;
+}
+
+#power-clean {
+    order: 12;
+}
+
+#pull-up {
+    order: 13;
+}
+
+#cable-crossover {
+    order: 2;
+}
+
+#one-leg-press {
+    order: 3;
+}
+
+#back-extension {
+    order: 6;
+}
+
+#row-cable {
+    order: 7;
+}
+
+#shoulder-machine {
+    order: 10;
+}
+
+#box-jump {
+    order: 11;
+}
+
+#lat-pulldown {
+    order: 14;
+}
+
+/* check-box */
+#bench-press-done,
+#barbell-squat-done,
+#deadlift-done,
+#barbell-row-done,
+#shoulder-press-done,
+#power-clean-done,
+#pull-up-done,
+#cable-crossover-done,
+#one-leg-press-done,
+#back-extension-done,
+#row-cable-done,
+#shoulder-machine-done,
+#box-jump-done,
+#lat-pulldown-done {
+    display: none;
+}
 
 /* Log-in page */
 /* Main */
