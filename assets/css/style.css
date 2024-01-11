@@ -260,6 +260,118 @@ br {
 #lat-pulldown-done {
     display: none;
 }
+/* Check-box */
+#bench-press-done:checked~#cable-crossover {
+    background-color: #CC8000;
+}
+
+#cable-crossover-done:checked~#bench-press {
+    background-color: #CC8000;
+}
+
+#bench-press-done:checked~#bench-press {
+    background-color: #CC1414;
+}
+
+#cable-crossover-done:checked~#cable-crossover {
+    background-color: #CC1414;
+}
+
+#barbell-squat-done:checked~#one-leg-press {
+    background-color: #CC8000;
+}
+
+#one-leg-press-done:checked~#barbell-squat {
+    background-color: #CC8000;
+}
+
+#barbell-squat-done:checked~#barbell-squat {
+    background-color: #CC1414;
+}
+
+#one-leg-press-done:checked~#one-leg-press {
+    background-color: #CC1414;
+}
+
+#deadlift-done:checked~#back-extension {
+    background-color: #CC8000;
+}
+
+#back-extension-done:checked~#deadlift {
+    background-color: #CC8000;
+}
+
+#deadlift-done:checked~#deadlift {
+    background-color: #CC1414;
+}
+
+#back-extension-done:checked~#back-extension {
+    background-color: #CC1414;
+}
+
+#barbell-row-done:checked~#row-cable {
+    background-color: #CC8000;
+}
+
+#row-cable-done:checked~#barbell-row {
+    background-color: #CC8000;
+}
+
+#barbell-row-done:checked~#barbell-row {
+    background-color: #CC1414;
+}
+
+#row-cable-done:checked~#row-cable {
+    background-color: #CC1414;
+}
+
+#shoulder-press-done:checked~#shoulder-machine {
+    background-color: #CC8000;
+}
+
+#shoulder-machine-done:checked~#shoulder-press {
+    background-color: #CC8000;
+}
+
+#shoulder-press-done:checked~#shoulder-press {
+    background-color: #CC1414;
+}
+
+#shoulder-machine-done:checked~#shoulder-machine {
+    background-color: #CC1414;
+}
+
+#power-clean-done:checked~#box-jump {
+    background-color: #CC8000;
+}
+
+#box-jump-done:checked~#power-clean {
+    background-color: #CC8000;
+}
+
+#power-clean-done:checked~#power-clean {
+    background-color: #CC1414;
+}
+
+#box-jump-done:checked~#box-jump {
+    background-color: #CC1414;
+}
+
+#pull-up-done:checked~#lat-pulldown {
+    background-color: #CC8000;
+}
+
+#lat-pulldown-done:checked~#pull-up {
+    background-color: #CC8000;
+}
+
+#pull-up-done:checked~#pull-up {
+    background-color: #CC1414;
+}
+
+#lat-pulldown-done:checked~#lat-pulldown {
+    background-color: #CC1414;
+}
 
 /* Log-in page */
 /* Main */
