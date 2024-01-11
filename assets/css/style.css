@@ -122,7 +122,27 @@ br {
 .right {
     border-radius: 15px 0 0 15px;
 }
+/* Box inside placing */
+#exercise>div>div {
+    display: flex;
+    justify-content: space-between;
+}
 
+#exercise>div.right.main-exercise>div {
+    flex-direction: row-reverse;
+}
+
+#exercise>div.right.alternative-exercise>div.upper-row {
+    flex-direction: row-reverse;
+}
+
+#exercise>div.left.alternative-exercise>div {
+    flex-direction: row-reverse;
+}
+
+#exercise>div.left.alternative-exercise>div.upper-row {
+    flex-direction: row;
+}
 /* Box inside items designe */
 .upper-row {
     height: 3em;
