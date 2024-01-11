@@ -1,153 +1,231 @@
 h1 {
     color: #CC1414;
-    font-family: 'Rubik Glitch','Dela Gothic One', Verdana;
+    font-family: 'Rubik Glitch', 'Dela Gothic One', Verdana;
     font-weight: bold;
     font-size: 275%;
     margin: 0;
 }
-h2,h3 {
+
+h2,
+h3 {
     color: #D9D9D9;
-    font-family: 'Dela Gothic One',Verdana;
+    font-family: 'Dela Gothic One', Verdana;
     font-weight: bold;
     margin: 0;
 }
-header h2{
+
+header h2 {
     text-align: right;
-    font-size:160%;
+    font-size: 160%;
 }
-body{
-    margin:0;
+
+body {
+    margin: 0;
 }
 
 /* Header */
-header{
-    background-color:#3D3D3D;
+header {
+    background-color: #3D3D3D;
     width: 100%;
-    position:absolute;
+    position: absolute;
     top: 0;
 }
-header > div {
-    margin : 20px;
+
+header>div {
+    margin: 20px;
 }
+
 /* Nav */
-nav{
+nav {
     display: flex;
 }
-nav > div{
+
+nav>div {
     width: 33%;
     text-align: center;
     border: 1px outset black;
-    padding:10px;
+    padding: 10px;
 }
-nav > div > a {
+
+nav>div>a {
     text-decoration: none;
 }
-.current-page{
+
+.current-page {
     background-color: #D9D9D9;
 }
-.current-page > a> h3{
+
+.current-page>a>h3 {
     color: #3D3D3D;
 }
+
 /* index page */
 /* Main */
-main{
+main {
     margin-top: 230px;
     margin-bottom: 80px;
 }
+
 /* Hero */
-#hero{ 
+#hero {
     background: url("../images/gym.jpg") no-repeat left 40%/cover;
     width: 100%;
-    height:400px;
+    height: 400px;
 }
-#hero > div{
-    background-color:rgba(0, 0, 0, 0.7);
-    width:200px;
+
+#hero>div {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 200px;
     border-radius: 3%;
-    padding:20px;
+    padding: 20px;
     position: absolute;
-    right:0;
-    top:350px;
+    right: 0;
+    top: 350px;
 }
-#hero h2{
+
+#hero h2 {
     color: #CC1414;
 }
+
 /* Content */
-#content{
-    margin:0 10%;
-    padding-bottom:20px;
+#content {
+    margin: 0 10%;
+    padding-bottom: 20px;
 }
-br{
-    border:1px solid black;
+
+br {
+    border: 1px solid black;
 }
+
+/* Exercises page */
+/* Main */
+/* Designe of the boxes */
+#exercise>div {
+    height: auto;
+    background-color: #D9D9D9;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.main-exercise {
+    width: 57vw;
+}
+
+.alternative-exercise {
+    width: 40vw;
+}
+
+.left {
+    border-radius: 0 15px 15px 0;
+}
+
+.right {
+    border-radius: 15px 0 0 15px;
+}
+
+/* Box inside items designe */
+.upper-row {
+    height: 3em;
+    margin: .4em;
+}
+
+#exercise h4 {
+    margin: 0 .1em;
+}
+
+.done {
+    font-size: 2rem;
+    color: #3D3D3D;
+    margin: 0 .1em;
+}
+
+#exercise ul {
+    list-style-type: none;
+    margin: 0.5em 1em;
+    padding: 0;
+    font-size: .8em;
+}
+
+#exercise li {
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    font-family: 'Didact Gothic', Verdana;
+}
+
+#exercise img {
+    height: 25vw;
+    width: 25vw;
+    margin: 0 .5em .5em;
+    border-radius: 10px;
+    filter: grayscale(100%);
+
+}
+
+/* Log-in page */
+/* Main */
+#log-in-main {
+    background: url("../images/log-in.jpg")no-repeat center center/cover;
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#log-in {
+    width: 30%;
+    height: auto;
+    background-color: rgba(217, 217, 217, 70%);
+    padding: 30px;
+
+}
+
 /* Footer */
-footer{
+footer {
     background-color: #3D3D3D;
-    position:fixed;
-    bottom:0;
+    position: fixed;
+    bottom: 0;
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-footer > div {
+
+footer>div {
     color: #D9D9D9
 }
-footer i{
+
+footer i {
     font-size: 300%;
-    color:#D9D9D9;
+    color: #D9D9D9;
 }
-/* Exercises page */
-/* Main */
 
-#exercises > div > div{
-	background-color:#D9D9D9;
-    height:100px;
-}
-.main-exercise{
-	width:70%;
-}
-.alternative-exercise{
-	width:30;
-}
-/* Log-in page */
-/* Main */
-#log-in-main{
-    background: url("../images/log-in.jpg")no-repeat center center/cover;
-    width:100%;
-    height:700px;
-
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-#log-in{
-    width:30%;
-    height:auto;
-    background-color:rgba(217,217,217,70%);
-    padding:30px;
-    
-}
 /* media query: phones*/
-@media screen and (max-width: 785px){
+@media screen and (max-width: 785px) {
+
     /* Header */
     /* Put the h1 into 2 lines in phones */
-    h1{
-        margin-right:250px;
+    h1 {
+        margin-right: 250px;
     }
 }
+
 /* media: query:  tablets and bigger devices*/
-@media screen and (min-width: 786px){
-/* Header */
+@media screen and (min-width: 786px) {
+
+    /* Header */
     header h2 {
-        text-align:left;
-        padding-left:300px;
+        text-align: left;
+        padding-left: 300px;
     }
+
     /* Main - index page*/
     main {
         margin-top: 178px;
     }
+
     /* Hero */
     #hero {
         height: 452px;
@@ -159,8 +237,9 @@ footer i{
 
     /* Nav */
     nav>div:hover {
-            background-color: #CC1414;
-        }
+        background-color: #CC1414;
+    }
+
     /* Footer */
     footer i:hover {
         color: #CC1414;

@@ -39,25 +39,360 @@
     </header>
     <!-- Warm up -->
     <main>
-    <!-- Exercises -->    
-        <div id="exercises">
-            <div>
-                <div class="main-exercise">
-                    <img src="../images/test.png">
+        <!-- Exercises -->
+        <div id="exercise">
+            <!-- These invisible checkboxes make the inside checkboxes work  -->
+            <input type="checkbox" id="bench-press-done">
+            <input type="checkbox" id="barbell-squat-done">
+            <input type="checkbox" id="deadlift-done">
+            <input type="checkbox" id="barbell-row-done">
+            <input type="checkbox" id="shoulder-press-done">
+            <input type="checkbox" id="power-clean-done">
+            <input type="checkbox" id="pull-up-done">
+    
+            <input type="checkbox" id="cable-crossover-done">
+            <input type="checkbox" id="one-leg-press-done">
+            <input type="checkbox" id="back-extension-done">
+            <input type="checkbox" id="row-cable-done">
+            <input type="checkbox" id="shoulder-machine-done">
+            <input type="checkbox" id="box-jump-done">
+            <input type="checkbox" id="lat-pulldown-done">
+            <!-- Main exercises -->
+            <!-- Bench Press -->
+            <div class="main-exercise left" id="bench-press">
+                <div class=upper-row>
+                    <div>
+                        <h4>Bench Press</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bench-press-done" name="bench-press-done">
+                        <label for="bench-press-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
                 </div>
-                <div class="alternative-exercise">
-                    <img src="../images/test.png">
+                <div>
+                    <div>
+                        <ul>
+                            <li>
+                                Keep your arm in the line of the barbell
+                            </li>
+                            <li>
+                                Lower the weight to your nipples
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img id="bench-press-image" src="assets/images/bench-press.jpeg" alt="Bench press image">
+                    </div>
+    
                 </div>
             </div>
-            <div>
-                <div class="alternative-exercise">
-                    <img src="../images/test.png">
+            <!-- Barbell Squat -->
+            <div class="main-exercise right" id="barbell-squat">
+                <div class=upper-row>
+                    <div>
+                        <h4>Barbell Squat</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="barbell-squat-done" name="barbell-squat-done">
+                        <label for="barbell-squat-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
                 </div>
-                <div class="main-exercise">
-                    <img src="../images/test.png">
+                <div>
+                    <div>
+                        <ul>
+                            <li>
+                                Rest the bar on the top of your back
+                            </li>
+                            <li>
+                                Doing the squat stick your butt and chest out
+                            </li>
+                            <li>
+                                Keep your weight on your heels
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img id="barbell-squat-image" src="assets/images/barbell-squat.jpg" alt="Barbell squat image">
+                    </div>
+    
                 </div>
             </div>
-    </div>
+            <!-- Deadlift -->
+            <div class="main-exercise left" id="deadlift">
+                <div class=upper-row>
+                    <div>
+                        <h4>Deadlift</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="deadlift-done" name="deadlift-done">
+                        <label for="deadlift-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <ul>
+                            <li>
+                                Keep your chest and butt out
+                            </li>
+                            <li>
+                                Look up at the cieling
+                            </li>
+                            <li>
+                                Hinge your hips inward
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img id="deadlift-image" src="assets/images/deadlift.jpeg" alt="Deadlift image">
+                    </div>
+    
+                </div>
+            </div>
+            <!-- Barbell Row -->
+            <div class="main-exercise right" id="barbell-row">
+                <div class=upper-row>
+                    <div>
+                        <h4>Barbell Row</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="barbell-row-done" name="barbell-row-done">
+                        <label for="barbell-row-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <ul>
+                            <li>
+                                Stick your butt and chest out
+                            </li>
+                            <li>
+                                Bend down by about 60°
+                            </li>
+                            <li>
+                                Pull the bar from a hanging position to your belly button
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img id="barbell-row-image" src="assets/images/barbell-row.jpeg" alt="Barbell row image">
+                    </div>
+    
+                </div>
+            </div>
+            <!-- Shoulder Press -->
+            <div class="main-exercise left" id="shoulder-press">
+                <div class=upper-row>
+                    <div>
+                        <h4>Shoulder Press</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="shoulder-press-done" name="shoulder-press-done">
+                        <label for="shoulder-press-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <ul>
+                            <li>
+                                Move the bar in a straight line
+                            </li>
+                            <li>
+                                Lower the bar under your chin
+                            </li>
+                            <li>
+    
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img id="shoulder-press-image" src="assets/images/shoulder-press.jpg" alt="Shoulder press image">
+                    </div>
+    
+                </div>
+            </div>
+            <!-- Power Clean -->
+            <div class="main-exercise right" id="power-clean">
+                <div class=upper-row>
+                    <div>
+                        <h4>Power Clean</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="power-clean-done" name="power-clean-done">
+                        <label for="power-clean-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <ul>
+                            <li>
+                                Start like a deadlift
+                            </li>
+                            <li>
+                                Rais the bar straight up and explode
+                            </li>
+                            <li>
+                                Drive your elbows under the bar
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img id="power-clean-image" src="assets/images/power-clean.jpg" alt="Power clean image">
+                    </div>
+    
+                </div>
+            </div>
+            <!-- Pull up -->
+            <div class="main-exercise left" id="pull-up">
+                <div class=upper-row>
+                    <div>
+                        <h4>Pull up</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pull-up-done" name="pull-up-done">
+                        <label for="pull-up-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <ul>
+                            <li>
+                                Keep your elbows flared our
+                            </li>
+                            <li>
+                                Stick your ches out
+                            </li>
+                            <li>
+                                Pull yourself up till your chin is over the bar
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img id="pull-up-image" src="assets/images/pull-up.jpeg" alt="Pull up image">
+                    </div>
+    
+                </div>
+            </div>
+            <!-- alternatives -->
+            <!-- Cable Crossover -->
+            <div class="alternative-exercise right" id="cable-crossover">
+                <div class="upper-row">
+                    <div>
+                        <h4>Cable Crossover</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cable-crossover-done" name="cable-crossover-done">
+                        <label for="cable-crossover-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <img id="cable-crossover-image" src="assets/images/cable-crossover.jpg" alt="Cable crossover image">
+                </div>
+            </div>
+            <!-- One leg press -->
+            <div class="alternative-exercise left" id="one-leg-press">
+                <div class="upper-row">
+                    <div>
+                        <h4>One leg press</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="one-leg-press-done" name="one-leg-press-done">
+                        <label for="one-leg-press-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <img id="one-leg-press-image" src="assets/images/one-leg-press.jpg" alt="One leg press image">
+                </div>
+            </div>
+            <!-- Back Extension -->
+            <div class="alternative-exercise right" id="back-extension">
+                <div class="upper-row">
+                    <div>
+                        <h4>Back Extension</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="back-extension-done" name="back-extension-done">
+                        <label for="back-extension-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <img id="back-extension-image" src="assets/images/back-extension.jpeg" alt="Back extension image">
+                </div>
+            </div>
+            <!-- Row Cable -->
+            <div class="alternative-exercise left" id="row-cable">
+                <div class="upper-row">
+                    <div>
+                        <h4>Row Cable</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="row-cable-done" name="row-cable-done">
+                        <label for="row-cable-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <img id="row-cable-image" src="assets/images/row-cable.jpg" alt="Row cable image">
+                </div>
+            </div>
+            <!-- Shoulder Machine -->
+            <div class="alternative-exercise right" id="shoulder-machine">
+                <div class="upper-row">
+                    <div>
+                        <h4>Shoulder Machine</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="shoulder-machine-done" name="shoulder-machine-done">
+                        <label for="shoulder-machine-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <img id="shoulder-machine-image" src="assets/images/shoulder-machine.jpeg" alt="Shoulder machine image">
+                </div>
+            </div>
+            <!-- Box Jump -->
+            <div class="alternative-exercise left" id="box-jump">
+                <div class="upper-row">
+                    <div>
+                        <h4>Box Jump</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="box-jump-done" name="box-jump-done">
+                        <label for="box-jump-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <img id="box-jump-image" src="assets/images/box-jump.jpg" alt="Box jump image">
+                </div>
+            </div>
+            <!-- Lat Pulldown -->
+            <div class="alternative-exercise right" id="lat-pulldown">
+                <div class="upper-row">
+                    <div>
+                        <h4>Lat Pulldown</h4>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="lat-pulldown-done" name="lat-pulldown-done">
+                        <label for="lat-pulldown-done" class="done">
+                            <i class="fa-solid fa-circle-check"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <img id="lat-pulldown-image" src="assets/images/lat-pulldown.jpg" alt="Lat pulldown image">
+                </div>
+            </div>
+        </div>
     </main>
     <!-- Footer -->
     <footer>
