@@ -18,7 +18,9 @@ header h2 {
     text-align: right;
     font-size: 160%;
 }
-
+p{
+    font-family:'Didact-Gothic',Verdana;
+}
 body {
     margin: 0;
 }
