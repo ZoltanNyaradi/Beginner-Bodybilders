@@ -29,8 +29,9 @@ body {
 header {
     background-color: #3D3D3D;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 header>div {
@@ -64,7 +65,7 @@ nav>div>a {
 /* index page */
 /* Main */
 main {
-    margin-top: 230px;
+    margin-top: 212px;
     margin-bottom: 80px;
 }
 
@@ -437,7 +438,7 @@ footer i {
 
     /* Main - index page*/
     main {
-        margin-top: 178px;
+        margin-top: 160px;
     }
 
     /* Hero */
