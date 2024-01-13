@@ -470,7 +470,16 @@ footer i {
         margin-right: 250px;
     }
 }
-
+/* media query: bigger phones*/
+@media screen and (min-width: 520px){
+    /* Exercise page*/
+#exercise h4{
+    font-size: 1.2em;
+}
+#exercise li{
+    font-size:1em;
+}
+}
 /* media: query:  tablets and bigger devices*/
 @media screen and (min-width: 786px) {
 
@@ -489,6 +498,14 @@ footer i {
     #hero {
         height: 452px;
     }
+        /* Exercise page*/
+    #exercise h4{
+        font-size: 2em;
+    }
+    #exercise li{
+        font-size:1.8em;
+    }
+    
 
     /* Log-in page */
     #log-in-main {
