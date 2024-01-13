@@ -18,9 +18,11 @@ header h2 {
     text-align: right;
     font-size: 160%;
 }
-p{
-    font-family:'Didact-Gothic',Verdana;
+
+p {
+    font-family: 'Didact-Gothic', Verdana;
 }
+
 body {
     margin: 0;
 }
@@ -125,6 +127,7 @@ br {
 .right {
     border-radius: 15px 0 0 15px;
 }
+
 /* Box inside placing */
 #exercise>div>div {
     display: flex;
@@ -146,6 +149,7 @@ br {
 #exercise>div.left.alternative-exercise>div.upper-row {
     flex-direction: row;
 }
+
 /* Box inside items designe */
 .upper-row {
     height: 3em;
@@ -183,6 +187,7 @@ br {
     filter: grayscale(100%);
 
 }
+
 /* Placeing of the boxes */
 #exercise {
     display: flex;
@@ -246,7 +251,7 @@ br {
     order: 14;
 }
 
-/* check-box */
+/* Hide the check-box base appearance in exercise page */
 #bench-press-done,
 #barbell-squat-done,
 #deadlift-done,
@@ -263,7 +268,8 @@ br {
 #lat-pulldown-done {
     display: none;
 }
-/* Check-box */
+
+/* Color the boxes with the check-boxes */
 #bench-press-done:checked~#cable-crossover {
     background-color: #CC8000;
 }
@@ -380,6 +386,7 @@ br {
 /* Main */
 #log-in-main {
     background: url("../images/log-in.jpg")no-repeat center center/cover;
+    background-color: black;
     width: 100%;
     height: 700px;
 
@@ -388,12 +395,49 @@ br {
     justify-content: center;
 }
 
-#log-in {
-    width: 30%;
+#log-in-form {
+    width: auto;
     height: auto;
     background-color: rgba(217, 217, 217, 70%);
-    padding: 30px;
+    padding: 1em 2em;
+    border-radius: 3px;
+}
 
+#log-in-form>div {
+    margin: .5em;
+}
+
+#log-in-form label {
+    font-family: 'Didact Gothic', Verdana;
+    margin-right: .5em;
+}
+
+#log-in-form h3 {
+    color: black;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+
+}
+
+.text-input-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-input-line>input {
+    background-color: rgba(0, 0, 0, 15%);
+    border: #3D3D3D solid 1px;
+    border-radius: 3px;
+}
+
+#submit {
+    margin: .5em 32%;
+    padding: 5px 10px;
+    font-family: 'Dela Gothic One', Verdana;
+    background-color: #D9D9D990;
+    border: #3D3D3D solid 2px;
+    border-radius: 3px;
 }
 
 /* Footer */
