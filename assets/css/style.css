@@ -449,9 +449,12 @@ br {
 #thank-you-main > div {
     width: auto;
     height: auto;
-    background-color: rgba(217, 217, 217, 70%);
+    background-color: #3D3D3DD0;
     padding: 2em;
     border-radius: 3px;
+}
+#thank-you-main h1{
+    margin-right: 0;
 }
 
 /* Footer */
