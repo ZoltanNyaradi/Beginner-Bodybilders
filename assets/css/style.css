@@ -133,6 +133,7 @@ br {
     display: flex;
     justify-content: space-between;
 }
+
 #exercise>div.right.main-exercise>div {
     flex-direction: row-reverse;
 }
@@ -158,6 +159,7 @@ br {
 #exercise h4 {
     margin: 0 .1em;
 }
+
 .done {
     font-size: 2rem;
     color: #3D3D3D;
@@ -382,8 +384,9 @@ br {
     background-color: #CC1414;
 }
 
-/* Log-in page */
-/* Main */
+/* Log-in page and 
+    Thank-you page*/
+#thank-you-main,
 #log-in-main {
     background: url("../images/log-in.jpg")no-repeat center center/cover;
     background-color: black;
@@ -395,6 +398,7 @@ br {
     justify-content: center;
 }
 
+/* Log-in page */
 #log-in-form {
     width: auto;
     height: auto;
@@ -470,19 +474,24 @@ footer i {
         margin-right: 250px;
     }
 }
+
 /* media query: bigger phones and bigger devices*/
-@media screen and (min-width: 520px){
+@media screen and (min-width: 520px) {
+
     /* Exercise page*/
-#exercise h4{
-    font-size: 1.2em;
+    #exercise h4 {
+        font-size: 1.2em;
+    }
+
+    #exercise li {
+        font-size: 1em;
+    }
+
+    #exercise>div {
+        padding: 0.5vw;
+    }
 }
-#exercise li{
-    font-size:1em;
-}
-#exercise>div {
-    padding:0.5vw;
-}
-}
+
 /* media: query:  tablets and bigger devices*/
 @media screen and (min-width: 786px) {
 
@@ -501,25 +510,32 @@ footer i {
     #hero {
         height: 452px;
     }
+
     /* Exercise page*/
-    #exercise h4{
+    #exercise h4 {
         font-size: 1.8em;
     }
-    #exercise li{
-        font-size:1.6em;
+
+    #exercise li {
+        font-size: 1.6em;
     }
-    .left .upper-row{
-        margin-left:20px;
+
+    .left .upper-row {
+        margin-left: 20px;
     }
-    .left li{
-        margin-left:10px;
+
+    .left li {
+        margin-left: 10px;
     }
-    .right .upper-row{
-        margin-right:20px;
+
+    .right .upper-row {
+        margin-right: 20px;
     }
-    .right li{
-        margin-right:10px;
+
+    .right li {
+        margin-right: 10px;
     }
+
     /* Log-in page */
     #log-in-main {
         height: 90vh;
@@ -538,23 +554,29 @@ footer i {
     footer i:hover {
         color: #CC1414;
     }
+
     /* Exercise page */
-     #exercise h4{
+    #exercise h4 {
         font-size: 2em;
     }
-    #exercise li{
-        font-size:1.8em;
+
+    #exercise li {
+        font-size: 1.8em;
     }
-     .left .upper-row{
-        margin-left:30px;
+
+    .left .upper-row {
+        margin-left: 30px;
     }
-    .left li{
-        margin-left:15px;
+
+    .left li {
+        margin-left: 15px;
     }
-    .right .upper-row{
-        margin-right:30px;
+
+    .right .upper-row {
+        margin-right: 30px;
     }
-    .right li{
-        margin-right:15px;
+
+    .right li {
+        margin-right: 15px;
     }
 }
