@@ -444,6 +444,15 @@ br {
     border-radius: 3px;
 }
 
+/* Thank you page */
+#thank-you-main {
+    width: auto;
+    height: auto;
+    background-color: rgba(217, 217, 217, 70%);
+    padding: 2em;
+    border-radius: 3px;
+}
+
 /* Footer */
 footer {
     background-color: #3D3D3D;
