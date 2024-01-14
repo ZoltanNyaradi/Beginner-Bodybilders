@@ -446,7 +446,7 @@ br {
 }
 
 /* Thank you page */
-#thank-you-main {
+#thank-you-main > div {
     width: auto;
     height: auto;
     background-color: rgba(217, 217, 217, 70%);
