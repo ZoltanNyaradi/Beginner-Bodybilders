@@ -63,13 +63,13 @@ nav>div>a {
 .current-page>a>h3 {
     color: #3D3D3D;
 }
-
-/* Index page */
-/* Main */
+/* All page */
 main {
     margin-top: 210px;
     margin-bottom: 80px;
 }
+/* Index page */
+
 
 /* Hero */
 #hero {
@@ -94,19 +94,18 @@ main {
 }
 
 /* Content */
-#content > div{
-    background-color:#D9D9D9;
-    padding: 20px;
-} 
 #content {
-    margin: 0 10%;
-    padding-bottom: 20px;
+    margin: 0 5%;
+}
+
+#content>div {
+    background-color: #D9D9D9;
+    padding: 10px 20px;
 }
 
 br {
     border: 1px solid black;
 }
-
 /* Exercises page */
 /* Main */
 /* Designe of the boxes */
@@ -569,12 +568,19 @@ footer i {
     nav>div:hover {
         background-color: #CC1414;
     }
-
-    /* Footer */
-    footer i:hover {
-        color: #CC1414;
+   /* Indexpage */
+    #content {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
     }
-
+    #content>div {
+        width:44%;
+        margin:20px 0 0 0;
+    }
+    #content hr{
+        display:none;
+    }
     /* Exercise page */
     #exercise h4 {
         font-size: 2em;
@@ -598,5 +604,9 @@ footer i {
 
     .right li {
         margin-right: 15px;
+    }
+    /* Footer */
+    footer i:hover {
+        color: #CC1414;
     }
 }
