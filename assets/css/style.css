@@ -552,8 +552,8 @@ footer i {
         margin-right: 10px;
     }
 
-    /* Log-in page */
-    #log-in-main {
+    /* Log-in page and Thank you page */
+    #log-in-main,#thank-you-main {
         height: 90vh;
     }
 }
