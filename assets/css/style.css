@@ -63,14 +63,12 @@ nav>div>a {
 .current-page>a>h3 {
     color: #3D3D3D;
 }
-/* All page */
+/* Main */
 main {
     margin-top: 210px;
     margin-bottom: 80px;
 }
 /* Index page */
-
-
 /* Hero */
 #hero {
     background: url("../images/gym.jpg") no-repeat left 40%/cover;
@@ -563,12 +561,35 @@ footer i {
 
 /* media query: laptops and bigger device */
 @media screen and (min-width: 992px) {
-
+    h1{
+        font-size:4em;
+    }
+    header h2{
+        font-size: 3em;
+    }
+    h3{
+        font-size:2.5em;
+    }
+    h4{
+        font-size:2.2em;
+    }
+    p{
+        font-size:1.8em;
+    }
     /* Nav */
     nav>div:hover {
-        background-color: #CC1414;
+        background-color:
+         #CC1414;
+    }
+    /* Main */
+    main{
+        margin-top: 248px;
+        margin-bottom: 140px;
     }
    /* Indexpage */
+    #hero h2 {
+        font-size: 2.5em;
+    }
     #content {
         display:flex;
         justify-content: space-between;
@@ -605,8 +626,22 @@ footer i {
     .right li {
         margin-right: 15px;
     }
+    /* Login - Page */
+    #log-in-form h3{
+        font-size: 2.5em;
+    }
+    #submit, #go-to-exercises{
+        font-size:1.8em;
+        margin: .5em 15%;
+    }
     /* Footer */
+    footer{
+        height:140px;
+    }
     footer i:hover {
         color: #CC1414;
+    }
+    footer i{
+        font-size: 500%;
     }
 }
