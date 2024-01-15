@@ -64,7 +64,7 @@ nav>div>a {
     color: #3D3D3D;
 }
 
-/* index page */
+/* Index page */
 /* Main */
 main {
     margin-top: 210px;
@@ -96,6 +96,7 @@ main {
 /* Content */
 #content > div{
     background-color:#D9D9D9;
+    padding: 20px;
 } 
 #content {
     margin: 0 10%;
