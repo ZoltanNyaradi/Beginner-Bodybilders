@@ -30,6 +30,7 @@ body {
 header {
     background-color: #3D3D3D;
     width: 100%;
+    height: 120px;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -490,6 +491,9 @@ footer i {
     h1 {
             font-size: 2.3em;
         }
+    header{
+        height:135px;
+    }
     /* Exercise page*/
 
     #exercise h4 {
@@ -512,6 +516,9 @@ footer i {
         font-size: 275%;
     }
     /* Header */
+        header {
+            height: 180px;
+        }
     header h2 {
         text-align: left;
         padding-left: 300px;
@@ -577,6 +584,10 @@ footer i {
     }
     p{
         font-size:1.8em;
+    }
+    
+    header{
+
     }
     /* Nav */
     nav>div:hover {
