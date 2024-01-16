@@ -2,7 +2,7 @@ h1 {
     color: #CC1414;
     font-family: 'Rubik Glitch', 'Dela Gothic One', Verdana;
     font-weight: bold;
-    font-size: 275%;
+    font-size: 1.5em;
     margin: 0;
 }
 
@@ -484,20 +484,14 @@ footer i {
     color: #D9D9D9;
 }
 
-/* media query: phones*/
-@media screen and (max-width: 785px) {
-
-    /* Header */
-    /* Put the h1 into 2 lines in phones */
-    h1 {
-        margin-right: 250px;
-    }
-}
-
 /* media query: bigger phones and bigger devices*/
 @media screen and (min-width: 520px) {
 
+    h1 {
+            font-size: 2.3em;
+        }
     /* Exercise page*/
+
     #exercise h4 {
         font-size: 1.2em;
     }
@@ -514,6 +508,9 @@ footer i {
 /* media: query:  tablets and bigger devices*/
 @media screen and (min-width: 786px) {
 
+    h1{
+        font-size: 275%;
+    }
     /* Header */
     header h2 {
         text-align: left;
