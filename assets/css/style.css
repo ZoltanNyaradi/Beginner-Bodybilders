@@ -18,8 +18,8 @@ p {
     font-family: 'Didact-Gothic', Verdana;
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
 }
 
 body {
@@ -39,6 +39,7 @@ header {
 header>div {
     margin: 20px;
 }
+
 header h2 {
     text-align: right;
     font-size: 160%;
@@ -68,11 +69,13 @@ nav>div>a {
 .current-page>a>h3 {
     color: #3D3D3D;
 }
+
 /* Main */
 main {
     margin-top: 100px;
     margin-bottom: 80px;
 }
+
 /* Index page */
 /* Hero */
 #hero {
@@ -84,7 +87,7 @@ main {
 #hero>div {
     background-color: rgba(0, 0, 0, 0.7);
     min-width: 200px;
-    width:35vw;
+    width: 35vw;
     border-radius: 3%;
     padding: 20px;
     position: absolute;
@@ -109,6 +112,7 @@ main {
 br {
     border: 1px solid black;
 }
+
 /* Exercises page */
 /* Main */
 /* Designe of the boxes */
@@ -453,14 +457,15 @@ br {
 }
 
 /* Thank you page */
-#thank-you-main > div {
+#thank-you-main>div {
     width: auto;
     height: auto;
     background-color: #3D3D3DD0;
     padding: 2em;
     border-radius: 3px;
 }
-#thank-you-main h1{
+
+#thank-you-main h1 {
     margin-right: 0;
 }
 
@@ -489,15 +494,18 @@ footer i {
 @media screen and (min-width: 520px) {
 
     h1 {
-            font-size: 2.2em;
-        }
-    header{
-        height:135px;
+        font-size: 2.2em;
     }
+
+    header {
+        height: 135px;
+    }
+
     /* Main */
     main {
         margin-top: 115px;
     }
+
     /* Exercise page*/
 
     #exercise h4 {
@@ -516,13 +524,15 @@ footer i {
 /* media: query:  tablets and bigger devices*/
 @media screen and (min-width: 786px) {
 
-    h1{
+    h1 {
         font-size: 275%;
     }
+
     /* Header */
-        header {
-            height: 180px;
-        }
+    header {
+        height: 180px;
+    }
+
     header h2 {
         text-align: left;
         padding-left: 300px;
@@ -533,14 +543,17 @@ footer i {
     main {
         margin-top: 160px;
     }
+
     /* Index page*/
     /* Hero */
     #hero {
         height: 452px;
     }
-    #hero h2{
+
+    #hero h2 {
         font-size: 2em;
     }
+
     /* Exercise page*/
     #exercise h4 {
         font-size: 1.8em;
@@ -567,59 +580,71 @@ footer i {
     }
 
     /* Log-in page and Thank you page */
-    #log-in-main,#thank-you-main {
+    #log-in-main,
+    #thank-you-main {
         height: 90vh;
     }
 }
 
 /* media query: laptops and bigger device */
 @media screen and (min-width: 992px) {
-    h1{
-        font-size:4em;
+    h1 {
+        font-size: 4em;
     }
-    h3{
-        font-size:2.5em;
+
+    h3 {
+        font-size: 2.5em;
     }
-    h4{
-        font-size:2.2em;
+
+    h4 {
+        font-size: 2.2em;
     }
-    p{
-        font-size:1.8em;
+
+    p {
+        font-size: 1.8em;
     }
+
     /* Header*/
     header {
         height: 270px;
     }
 
-    header h2{
+    header h2 {
         font-size: 3em;
     }
+
     /* Nav */
     nav>div:hover {
         background-color:
-         #CC1414;
+            #CC1414;
     }
+
     /* Main */
-    main{
+    main {
         margin-top: 250px;
         margin-bottom: 140px;
     }
-   /* Indexpage */
+
+    /* Indexpage */
     #hero h2 {
         font-size: 2.5em;
     }
+
     #content {
-        display:flex;
+        display: flex;
         justify-content: space-between;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
+
     #content>div {
-        width:44%;
-        margin:20px 0 0 0;
+        width: 44%;
+        margin: 20px 0 0 0;
     }
-    #content hr{
-        display:none;
+
+    #content hr {
+        display: none;
     }
+
     /* Exercise page */
     #exercise h4 {
         font-size: 2em;
@@ -644,22 +669,28 @@ footer i {
     .right li {
         margin-right: 15px;
     }
+
     /* Login - Page */
-    #log-in-form h3{
+    #log-in-form h3 {
         font-size: 2.5em;
     }
-    #submit, #go-to-exercises{
-        font-size:1.8em;
+
+    #submit,
+    #go-to-exercises {
+        font-size: 1.8em;
         margin: .5em 15%;
     }
+
     /* Footer */
-    footer{
-        height:140px;
+    footer {
+        height: 140px;
     }
+
     footer i:hover {
         color: #CC1414;
     }
-    footer i{
+
+    footer i {
         font-size: 500%;
     }
 }
