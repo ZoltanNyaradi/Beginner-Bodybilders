@@ -92,7 +92,7 @@ main {
     padding: 20px;
     position: absolute;
     right: 0;
-    top: 350px;
+    top: 250px;
 }
 
 #hero h2 {
@@ -626,10 +626,14 @@ footer i {
     }
 
     /* Indexpage */
+    /* Hero */
     #hero h2 {
         font-size: 2.5em;
     }
-
+    #hero>div {
+        top:350px;
+    }
+    /* Content  */
     #content {
         display: flex;
         justify-content: space-between;
