@@ -70,7 +70,7 @@ nav>div>a {
 }
 /* Main */
 main {
-    margin-top: 210px;
+    margin-top: 100px;
     margin-bottom: 80px;
 }
 /* Index page */
@@ -120,11 +120,11 @@ br {
 }
 
 .main-exercise {
-    width: 56vw;
+    width: 56%;
 }
 
 .alternative-exercise {
-    width: 40vw;
+    width: 40%;
 }
 
 .left {
@@ -489,10 +489,14 @@ footer i {
 @media screen and (min-width: 520px) {
 
     h1 {
-            font-size: 2.3em;
+            font-size: 2.2em;
         }
     header{
         height:135px;
+    }
+    /* Main */
+    main {
+        margin-top: 115px;
     }
     /* Exercise page*/
 
@@ -525,11 +529,11 @@ footer i {
         display: contents;
     }
 
-    /* Main - index page*/
+    /* Main */
     main {
-        margin-top: 158px;
+        margin-top: 160px;
     }
-
+    /* Index page*/
     /* Hero */
     #hero {
         height: 452px;
@@ -573,9 +577,6 @@ footer i {
     h1{
         font-size:4em;
     }
-    header h2{
-        font-size: 3em;
-    }
     h3{
         font-size:2.5em;
     }
@@ -585,9 +586,13 @@ footer i {
     p{
         font-size:1.8em;
     }
-    
-    header{
+    /* Header*/
+    header {
+        height: 270px;
+    }
 
+    header h2{
+        font-size: 3em;
     }
     /* Nav */
     nav>div:hover {
@@ -596,7 +601,7 @@ footer i {
     }
     /* Main */
     main{
-        margin-top: 248px;
+        margin-top: 250px;
         margin-bottom: 140px;
     }
    /* Indexpage */
