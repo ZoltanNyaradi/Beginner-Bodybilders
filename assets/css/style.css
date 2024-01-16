@@ -115,6 +115,9 @@ br {
 }
 
 /* Exercises page */
+#exercise{
+    margin-top:125px;
+}
 /* Designe of the boxes */
 #exercise>div {
     height: auto;
@@ -507,7 +510,9 @@ footer i {
     }
 
     /* Exercise page*/
-
+    #exercise{
+        margin-top:140px;
+    }
     #exercise h4 {
         font-size: 1.2em;
     }
@@ -555,6 +560,9 @@ footer i {
     }
 
     /* Exercise page*/
+        #exercise {
+            margin-top: 190px;
+        }
     #exercise h4 {
         font-size: 1.8em;
     }
@@ -644,6 +652,9 @@ footer i {
     }
 
     /* Exercise page */
+        #exercise {
+            margin-top: 280px;
+        }
     #exercise h4 {
         font-size: 2em;
     }
