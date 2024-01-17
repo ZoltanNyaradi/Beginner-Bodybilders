@@ -13,9 +13,11 @@ h3 {
     font-weight: bold;
     margin: 0;
 }
-
+h4 {
+    font-family: 'Dela Gothic One', Verdana;
+}
 p {
-    font-family: 'Didact-Gothic', Verdana;
+    font-family: 'Didact Gothic', Verdana;
 }
 
 a {
