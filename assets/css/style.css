@@ -506,23 +506,7 @@ footer i {
 /* media query: bigger phones and bigger devices*/
 @media screen and (min-width: 520px) {
 
-    h1 {
-        font-size: 2.2em;
-    }
-    /* Header */
-    header {
-        height: 135px;
-    }
-
-    /* Main */
-    main {
-        margin-top: 115px;
-    }
-
     /* Exercise page*/
-    #exercise{
-        margin-top:140px;
-    }
     #exercise h4 {
         font-size: 1.2em;
     }
@@ -540,9 +524,16 @@ footer i {
 @media screen and (min-width: 786px) {
 
     h1 {
-        font-size: 275%;
+            font-size: 2.2em;
     }
-
+    /* Header */
+    header {
+        height: 135px;
+    }
+    /* Main */
+    main {
+        margin-top: 115px;
+    }
     /* Header */
     header {
         height: 180px;
