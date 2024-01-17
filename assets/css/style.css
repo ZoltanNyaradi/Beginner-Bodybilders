@@ -76,7 +76,7 @@ nav>div>a {
 /* Main */
 main {
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 /* Index page */
@@ -479,7 +479,7 @@ footer {
     background-color: #3D3D3D;
     position: fixed;
     bottom: 0;
-    height: 80px;
+    height: 40px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -491,7 +491,7 @@ footer>div {
 }
 
 footer i {
-    font-size: 300%;
+    font-size: 200%;
     color: #D9D9D9;
 }
 
@@ -626,7 +626,7 @@ footer i {
     /* Main */
     main {
         margin-top: 250px;
-        margin-bottom: 140px;
+        margin-bottom: 60px;
     }
 
     /* Indexpage */
@@ -694,7 +694,7 @@ footer i {
 
     /* Footer */
     footer {
-        height: 140px;
+        height: 60px;
     }
 
     footer i:hover {
@@ -702,6 +702,6 @@ footer i {
     }
 
     footer i {
-        font-size: 500%;
+        font-size: 300%;
     }
 }
