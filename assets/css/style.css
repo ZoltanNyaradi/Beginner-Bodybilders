@@ -535,10 +535,6 @@ footer i {
         margin-top: 115px;
     }
     /* Header */
-    header {
-        height: 180px;
-    }
-
     header h2 {
         text-align: left;
         padding-left: 300px;
@@ -592,28 +588,21 @@ footer i {
 /* media query: laptops and bigger device */
 @media screen and (min-width: 992px) {
     h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     h3 {
-        font-size: 2.5em;
+        font-size: 1.4em;
     }
 
     h4 {
-        font-size: 2.2em;
+        font-size: 1.2em;
     }
 
-    p {
-        font-size: 1.8em;
-    }
 
     /* Header*/
-    header {
-        height: 270px;
-    }
-
     header h2 {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     /* Nav */
@@ -624,7 +613,7 @@ footer i {
 
     /* Main */
     main {
-        margin-top: 250px;
+        margin-top: 157px;
         margin-bottom: 60px;
     }
 
@@ -654,7 +643,7 @@ footer i {
 
     /* Exercise page */
         #exercise {
-            margin-top: 280px;
+            margin-top: 177px;
         }
     #exercise h4 {
         font-size: 2em;
