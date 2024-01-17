@@ -416,12 +416,16 @@ br {
 /* Button designe */
 #submit,
 #go-to-exercises {
-    margin: .5em 32%;
+    margin: .5em 0;
     padding: 5px 10px;
     font-family: 'Dela Gothic One', Verdana;
     background-color: #D9D9D990;
     border: #3D3D3D solid 2px;
     border-radius: 3px;
+}
+.button-to-center{
+    display: flex;
+    justify-content: center;
 }
 
 /* Log-in page */
@@ -431,6 +435,8 @@ br {
     background-color: rgba(217, 217, 217, 70%);
     padding: 1em 2em;
     border-radius: 3px;
+    position: relative;
+    bottom: 10vh;
 }
 
 #log-in-form>div {
@@ -468,6 +474,8 @@ br {
     background-color: #3D3D3DD0;
     padding: 2em;
     border-radius: 3px;
+    position: relative;
+    bottom: 20vh;
 }
 
 #thank-you-main h1 {
