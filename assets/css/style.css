@@ -215,8 +215,8 @@ br {
 #exercise img {
     height: 25vw;
     width: 25vw;
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 120px;
+    max-width: 120px;
     margin: 0 .5em .5em;
     border-radius: 10px;
     filter: grayscale(100%);
