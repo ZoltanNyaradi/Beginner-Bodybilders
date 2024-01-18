@@ -181,9 +181,11 @@ br {
     margin: 0 .1em;
     font-size: .8em;
 }
+
 .right h4 {
     text-align: right;
 }
+
 .done {
     font-size: 2rem;
     color: #3D3D3D;
@@ -192,9 +194,16 @@ br {
 
 #exercise ul {
     list-style-type: none;
-    margin: 0.5em 1em;
     padding: 0;
     font-size: .8em;
+}
+
+.left ul {
+    margin:-.5em 0 .5em .5em
+}
+
+.right ul {
+    margin:-.5em .5em .5em 0;
 }
 
 #exercise li {
