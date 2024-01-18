@@ -666,10 +666,28 @@ footer i {
     #exercise {
         margin-top: 177px;
     }
+    /* Box design */
+    .main-exercise {
+        width: 45%;
+    }
+    
+    .alternative-exercise {
+        width: 35%;
+    }
+
+    /* Design of the box inside items */
+    .left .upper-row {
+        margin-left: 30px;
+    }
+
+    .right .upper-row {
+        margin-right: 30px;
+    }
 
     #exercise h4 {
         font-size: 1.2em;
     }
+
     #exercise ul {
         list-style-type: disc;
     }
@@ -684,16 +702,8 @@ footer i {
         font-size: 1.6em;
     }
 
-    .left .upper-row {
-        margin-left: 30px;
-    }
-
     .left li {
         margin-left: 15px;
-    }
-
-    .right .upper-row {
-        margin-right: 30px;
     }
 
     .right li {
