@@ -99,7 +99,7 @@ main {
     padding: 20px;
     position: absolute;
     right: 0;
-    top: 250px;
+    top: 150px;
 }
 
 #hero h2 {
@@ -632,7 +632,7 @@ footer i {
     }
 
     #hero>div {
-        top: 350px;
+        top: 250px;
     }
 
     /* Content  */
