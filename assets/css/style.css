@@ -181,7 +181,9 @@ br {
     margin: 0 .1em;
     font-size: .8em;
 }
-
+.right h4 {
+    text-align: right;
+}
 .done {
     font-size: 2rem;
     color: #3D3D3D;
