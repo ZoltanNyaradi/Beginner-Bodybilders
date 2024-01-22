@@ -183,6 +183,7 @@ The Lighthouse helped me also to find some mistake, such as:
 * The footer icons had no accessibility names.
 * Links weren't well visible in the text.
 * Images were to large.
+  
 Compressing these images made the exercise page from the worst to the best preforming page in this site.
 
 ![Google Lighthouse](documentation/lighthouse.png)
