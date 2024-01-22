@@ -6,6 +6,35 @@ The Beginner Bodybuilders site is designed as a helpful tool for anyone planning
 
 Start a healthier life now and try it for yourself: [Beginner Budybuilder ](https://zoltannyaradi.github.io/Beginner-Bodybilders/)
 
+## Contents
+
+* [Designe](#designe)
+  * [Color Scheme](#color-scheme)
+  * [Typography](#typography)
+*   [Wireframe](#wireframe)
+* [Features](#features)
+  * [Favicon](#favicon)
+  * [Header](#header)
+  * [Footer](#footer)
+  * [Hero section](#hero-section)
+  * [Content section](#content-section)
+  * [Exercise page](#exercise-page)
+  * [Log In page](#log-in-page)
+  * [Thank You page](#thank-you-page)
+  * [Future Implementions](#future-implementions)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Used Programs](#used-programs)
+* [Testing](#testing)
+  * [HTML validator](#html-validator)
+  * [CSS validator](#css-validator)
+  * [Google Lighthouse](#google-lighthouse)
+  * [Solved Bugs](#solved-bugs)
+* [Credits](#credits)
+  * [Used Code](#used-code)
+  * [Content](#content)
+  * [Acknowledgments](#acknowledgments)
+
 ## Designe
 
 ### Color Scheme
@@ -136,15 +165,15 @@ HTML and CSS
 
 ## Testing
 
-### validator.w3.org
+### HTML validator
 
-The HTML showed few errors like a forgotten ">" in the code, and a bottom was in an anchor element. These has been solved easily. But in the exercise page, I wanted to color the boxes with the check box, as I was testing, I have realized that, that the check box can effect only it self or it's sibling elements, but at the same times I have noticed that, that two checkbox with the same id behave as one, so if I create an other check box with the same id, than I can make it invisible and put anywhere in the page, and like this I can effect any element. But as it isn't the official way to solve this kind of problem and the validator also shows as a mistake. As I learn how to use JavaScript, and I come back to improve this site, than I will correct this one as well.
+The validator.w3.org HTML validator showed few errors like a forgotten ">" in the code, and a bottom was in an anchor element. These has been solved easily. But in the exercise page, I wanted to color the boxes with the check box, as I was testing, I have realized that, that the check box can effect only it self or it's sibling elements, but at the same times I have noticed that, that two checkbox with the same id behave as one, so if I create an other check box with the same id, than I can make it invisible and put anywhere in the page, and like this I can effect any element. But as it isn't the official way to solve this kind of problem and the validator also shows as a mistake. As I learn how to use JavaScript, and I come back to improve this site, than I will correct this one as well.
 
 ![HTML validator](documentation/html-validator.png)
 
-### jigsaw.w3.org/css-validator/
+### CSS validator
 
-The CSS validator showed no error 
+The jigsaw.w3.org/css-validator/ CSS validator showed no error. 
 
 ![CSS validator](documentation/css-validator.png)
 
@@ -184,7 +213,7 @@ Codes were used from the Code Institute's Love Running project. For example at t
 * The text and the plan based on the videos of the Gravity Transformation YouTube channel.
 * The cover text was written by my friend Puska Richárd.
 
-### Acknowledgment
+### Acknowledgments
 
 I would like to thank for the help to my mentor Jubril Akolade how suggested to create the Thank You page, and other useful improvements.
 
