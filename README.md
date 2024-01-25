@@ -30,9 +30,13 @@ Start a healthier life now and try it for yourself: [Beginner Budybuilder ](http
   * [CSS validator](#css-validator)
   * [Google Lighthouse](#google-lighthouse)
   * [Solved Bugs](#solved-bugs)
+  * [Manual Testing](#manual-testing)
+    * [Liks, Buttons](#liks-buttons)
+    * [Style, Media query](#style-media-query)
 * [Credits](#credits)
   * [Used Code](#used-code)
   * [Content](#content)
+    * [Images](#images)
   * [Acknowledgments](#acknowledgments)
 
 ## Designe
@@ -46,7 +50,6 @@ Five colors were used throughout the site, inspired by the gym where I work out:
  * #FFFFFF was used as the background behind everything when no background image was added. Additionally, the cover text was kept white for better visibility. 
  * #000000 was predominantly used for text. 
  * #CC1414 is the color for the largest texts and is employed for the hover function in the footer, also serving as a marker for finished exercises.
- * #CC8000 was used to mark exercises that have been completed in pairs.
 
 ![Colors](documentation/colors.png)
 
@@ -112,7 +115,7 @@ The content has a different design on phones and tablets, with varied text place
 
 ### Exercise page
 
-Here, you can find the workout plan with seven exercises in larger boxes and their alternatives in the smaller ones. If you finish an exercise, clicking the checkbox will turn the container of that exercise red, and its pair orange. If you click both, both will turn red, indicating you completed both exercises. On laptops and larger devices, the gap between the containers is increased, and other responsive design elements are added to both texts and images.
+Here, you can find the workout plan with seven exercises in larger boxes and their alternatives in the smaller ones. If you finish an exercise, clicking the check will turn it red. On laptops and larger devices, the gap between the containers is increased, and other responsive design elements are added to both texts and images.
 
 ![Exercise page phone](documentation/exercise-page-phone.png)
 
@@ -140,7 +143,6 @@ This page features the same background image. A gracious 'thank you' message con
 * As it was mentioned it will be possible to switch between log in and sign up form.
 * The link to sign up will load the log in page, but the sign up form.
 * A database will be added. The user lifting weights will be stored in a database, so they can reach it from any device.
-* The box coloring function will be rewritten in JavaScript. Further details can be found in the testing section
 
 ## Technologies Used
 
@@ -167,7 +169,7 @@ HTML and CSS
 
 ### HTML validator
 
-The validator.w3.org HTML validator showed few errors like a forgotten ">" in the code, and a bottom was in an anchor element. These has been solved easily. But in the exercise page, I wanted to color the boxes with the check box, as I was testing, I have realized that, that the check box can effect only it self or it's sibling elements, but at the same times I have noticed that, that two checkbox with the same id behave as one, so if I create an other check box with the same id, than I can make it invisible and put anywhere in the page, and like this I can effect any element. But as it isn't the official way to solve this kind of problem and the validator also shows as a mistake. As I learn how to use JavaScript, and I come back to improve this site, than I will correct this one as well.
+The validator.w3.org HTML validator showed few errors like a forgotten ">" in the code, and a bottom was in an anchor element. The ">" was removed and the anchor was replaced with a form.
 
 ![HTML validator](documentation/html-validator.png)
 
@@ -201,6 +203,29 @@ Compressing these images made the exercise page from the worst to the best prefo
 |7.|The size of every elements were double as I expected on PC.|I reduced them to normal.|
 |8.|In exercise page on the right side, if the name of an exercise was in two line the text was not anymore align to the right|I set an align right for these elements.|
 
+### Manual Testing
+
+#### Liks, Buttons
+
+1. Title leads to Index page from all the four pages.
+2. All the 3 nav elements lead correctly to the other pages from all the 4 pages.
+3. The current page is always appear with an opposite color style on nav. On thank you page all nav element has the basic color style.
+4. Hovering on a nav element, make it's background red on PC on every page.
+5. Hover function of the footer icons work as well on every page.
+6. Every fotter icon on every page successfully open the right social media page on a new tab.
+7. Sing up link leads to log in page.
+8. Link of the video opens in order on a new page.
+9. On exercise page all of the checks become red, after they are checked.
+10. The form on log in page works fine. If there any missing data, it ask for fill out. If all the datas are filled, then the thank you page opens.
+11. The button on thank you page leads to exercise page, as it expected.
+
+#### Style, Media query
+
+1. The subtitle successfully appears only on tablets or on bigger devices.
+2. The text on index page split in two column on laptop and PC.
+3. On exercise page the boxes has a bigger gap in between on laptop and PC.
+4. Margins, font sizes and image sizes work just well on every screen size.
+
 ## Credits
 
 ### Used Code
@@ -213,6 +238,27 @@ Codes were used from the Code Institute's Love Running project. For example at t
 * A lot of idea come from the Love Running project, but these are also wildly spread standards in web development.
 * The text and the plan based on the videos of the Gravity Transformation YouTube channel.
 * The cover text was written by my friend Puska Richárd.
+
+#### Images
+
+|Site|Image|Link|
+| :--- | :--- | :--- |
+|pixabay.com|gym|https://cdn.pixabay.com/photo/2017/08/17/02/28/gym-2649824_960_720.jpg|
+|pixabay.com|log-in|https://cdn.pixabay.com/photo/2020/05/22/19/07/fitness-5206699_640.jpg|
+|pixabay.com|barbell-squat|https://pixabay.com/hu/photos/s%C3%BAlyz%C3%B3-tornaterem-%C3%A1llv%C3%A1ny-f%C3%A9rfi-3895455/|
+|pixabay.com|power-clean|https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839087_640.jpg|
+|pixabay.com|box-jump|https://pixabay.com/hu/photos/emberek-l%C3%A1ny-gyakorlat-fitness-2604151/|
+|pixabay.com|lat-pulldown|https://cdn.pixabay.com/photo/2016/08/31/02/58/bodybuilding-1632549_640.jpg|
+|pixabay.com|cable-crossover|https://cdn.pixabay.com/photo/2020/11/04/05/08/body-building-5711492_640.jpg|
+|pixabay.com|row-cable|https://cdn.pixabay.com/photo/2020/11/04/05/08/body-building-5711492_960_720.jpg|
+|pixabay.com|one-leg-press|https://cdn.pixabay.com/photo/2016/01/31/18/18/sports-1171842_640.jpg|
+|stock.adobe.com|bench-press|https://t3.ftcdn.net/jpg/03/00/58/88/240_F_300588850_Tz5z4eot6yR3i0XdS9LC2jvO3JssyQRI.jpg|
+|stock.adobe.com|deadlift|https://stock.adobe.com/hu/images/deadlift-exercise-man-during-his-workout-in-the-gym/212623107|
+|stock.adobe.com|pull-up|https://t3.ftcdn.net/jpg/00/89/39/96/240_F_89399616_nGT5efjbiVfcoeMQlfGZqMxTmIMMrOoU.jpg|
+|stock.adobe.com|shoulder-machine|https://t4.ftcdn.net/jpg/02/15/94/41/240_F_215944153_v98HOdC4nlt1Ev8LAovauF6KRzdaodAZ.jpg|
+|stock.adobe.com|back-extension|https://t3.ftcdn.net/jpg/03/97/46/28/240_F_397462889_jjqbIURUEA8ybrtnadtVjFp4PTlQgmnG.jpg|
+|stock.adobe.com|barbell-row|https://t4.ftcdn.net/jpg/03/83/87/65/240_F_383876592_QNz3hVUOVXRA8Gqs4Q7EObDHMtpq50eM.jpg|
+|unsplash.com|shoulder-press|https://cdn0.iconfinder.com/data/icons/font-awesome-solid-vol-2/640/dumbbell-256.png|
 
 ### Acknowledgments
 
