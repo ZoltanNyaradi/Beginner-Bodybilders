@@ -25,18 +25,22 @@ Start a healthier life now and try it for yourself: [Beginner Budybuilder ](http
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Used Programs](#used-programs)
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
 * [Testing](#testing)
   * [HTML validator](#html-validator)
   * [CSS validator](#css-validator)
   * [Google Lighthouse](#google-lighthouse)
   * [Solved Bugs](#solved-bugs)
   * [Manual Testing](#manual-testing)
-    * [Liks, Buttons](#liks-buttons)
-    * [Style, Media query](#style-media-query)
 * [Credits](#credits)
   * [Used Code](#used-code)
   * [Content](#content)
     * [Images](#images)
+  * [README](#readme)
   * [Acknowledgments](#acknowledgments)
 
 ## Designe
@@ -165,6 +169,41 @@ HTML and CSS
 * quillbot.com - Used to correct language
 * ChatGTP - Used to correct language
 
+## Deployment & Local Development
+
+### Deployment
+
+The site is deployed using GitHub Pages - [Beginner Bodybilders](https://zoltannyaradi.github.io/Beginner-Bodybilders/).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [ZoltanNyaradi/Beginner-Bodybilders](https://github.com/ZoltanNyaradi/Beginner-Bodybilders/deployments).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [ZoltanNyaradi/Beginner-Bodybilders](https://github.com/ZoltanNyaradi/Beginner-Bodybilders/deployments).
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [ZoltanNyaradi/Beginner-Bodybilders](https://github.com/ZoltanNyaradi/Beginner-Bodybilders/deployments).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
 ## Testing
 
 ### HTML validator
@@ -205,32 +244,13 @@ Compressing these images made the exercise page from the worst to the best prefo
 
 ### Manual Testing
 
-#### Liks, Buttons
-
-1. Title leads to Index page from all the four pages.
-2. All the 3 nav elements lead correctly to the other pages from all the 4 pages.
-3. The current page is always appear with an opposite color style on nav. On thank you page all nav element has the basic color style.
-4. Hovering on a nav element, make it's background red on PC on every page.
-5. Hover function of the footer icons work as well on every page.
-6. Every fotter icon on every page successfully open the right social media page on a new tab.
-7. Sing up link leads to log in page.
-8. Link of the video opens in order on a new page.
-9. On exercise page all of the checks become red, after they are checked.
-10. The form on log in page works fine. If there any missing data, it ask for fill out. If all the datas are filled, then the thank you page opens.
-11. The button on thank you page leads to exercise page, as it expected.
-
-#### Style, Media query
-
-1. The subtitle successfully appears only on tablets or on bigger devices.
-2. The text on index page split in two column on laptop and PC.
-3. On exercise page the boxes has a bigger gap in between on laptop and PC.
-4. Margins, font sizes and image sizes work just well on every screen size.
+You can find the manual testin in the [TESTING.md](TESTING.md).
 
 ## Credits
 
 ### Used Code
 
-Writing the code, I have checked codes syntax, it's properties on the Code Institute's learning material, and on www.w3schools.com.
+Writing the code, I have checked codes syntax, its properties on the Code Institute's learning material, and on www.w3schools.com.
 Codes were used from the Code Institute's Love Running project. For example at the footer icon's HTML and the check box's HTML.
 
 ### Content
@@ -259,6 +279,10 @@ Codes were used from the Code Institute's Love Running project. For example at t
 |stock.adobe.com|back-extension|https://t3.ftcdn.net/jpg/03/97/46/28/240_F_397462889_jjqbIURUEA8ybrtnadtVjFp4PTlQgmnG.jpg|
 |stock.adobe.com|barbell-row|https://t4.ftcdn.net/jpg/03/83/87/65/240_F_383876592_QNz3hVUOVXRA8Gqs4Q7EObDHMtpq50eM.jpg|
 |unsplash.com|shoulder-press|https://cdn0.iconfinder.com/data/icons/font-awesome-solid-vol-2/640/dumbbell-256.png|
+
+### README
+
+This file was created based on the [The-Quiz-Arms/README.md](https://github.com/kera-cudmore/TheQuizArms/blob/main/README.md).
 
 ### Acknowledgments
 
